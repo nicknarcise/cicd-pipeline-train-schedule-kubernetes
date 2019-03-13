@@ -12,7 +12,7 @@ spec:
     nodePort: 8080
 ---
 kind: Deployment
-apiVersion: extentions/v1beta
+apiVersion: apps/v1
 metadata:
   name: train-schedule-deployment
   labels:
